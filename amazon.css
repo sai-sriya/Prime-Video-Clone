@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+} 
+.begin img{
+    width: 100px;
+    margin-left: 23px;
+}
+.begin{
+    box-sizing: border-box;
+    border: 19px solid rgb(35, 47, 62);
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width:100%;
+
+}
+#top .begin{
+    position:sticky;
+    top:0;
+    z-index: 100;
+}
+
+.begin .language{
+    float: right;
+    color:white;
+    font-size: 21px;
+    cursor: pointer;
+    position:relative;
+    left:450px;
+}
+
+.begin div{
+    float: right;
+    color:white;
+    font-size: 21px;
+    cursor: pointer;
+}
+.one{
+    background-image:url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3.jpg");
+    height:550px;
+    /* width:1266px; */
+    background-repeat: round; 
+    /* background-size: 100%; */
+    position:relative;
+    top:-2px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.one h1{
+    color:white;
+    position:relative;
+    top:67px;
+    font-size:40px;
+    left:45px;
+}
+
+.one div{
+    color:white;
+    position:relative;
+    top:55px;
+    font-size:21px;
+    left:45px;
+}
+#login{
+    color:white;
+    position: relative;
+    top:113px;
+    left:49px;
+    font-size:22px;
+    border: 3px solid RGB(20, 110, 160);
+    width:184px;
+    padding:12px;
+    padding-left: 35px;
+    padding-right: 22px;
+    background-color: RGB(20, 110, 160);
+    cursor: pointer;
+}
+.two {
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_.jpg");
+    background-repeat: round;
+    display:flex;
+    flex-direction: column;
+    height:490px;
+    width:1266px;
+    position: relative;
+    bottom:103px;
+}
+.two h1{
+    color:white;
+    position:relative;
+    left:755px;
+    font-size: 40px;
+    top:23px;
+
+}
+.two div{
+    color:white;
+    position: relative;
+    left:755px;
+    font-size: 21px;
+    top:9px;
+}
+#start{
+    color:white;
+    position:relative;
+    left:757px;
+    top:44px;
+    border:3px solid RGB(20, 110, 160);
+    background-color:RGB(20, 110, 160);
+    width:100px;
+    padding:12px;
+    padding-left: 71px;
+    padding-right: 64px;
+    font-size: 22px;
+    cursor:pointer;
+}
+.three{
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_.jpg ");
+    background-repeat: round;
+    height:490px;
+    width:1266px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    bottom:103px;
+}
+.three h1{
+    color:white;
+    font-size: 40px;
+    position: relative;
+    left:39px;
+    bottom:61px;
+    top:-40px;
+}
+.three div{
+    color:white;
+    font-size: 21px;
+    position:relative;
+    left: 39px;
+    top:-50px;
+}
+#started{
+    color:white;
+    font-size: 22px;
+    top:-8px;
+    left:41px;
+    padding:12px;
+    background-color: 3px solid RGB(20, 110, 160);
+    background-color: RGB(20, 110, 160);
+    width:100px;
+    padding-left: 71px;
+    padding-right: 64px;
+    cursor:pointer;
+}
+#more{
+    color:white;
+    position:relative;
+    font-size: 14px;
+    top:20px;
+}
+
+.four{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg");
+    background-repeat: round;
+    height:460px;
+    width:1266px;
+    position:relative;
+    bottom:120px;
+    display: flex;
+    flex-direction: column;
+
+}
+.four h1{
+    color:white;
+    font-size: 40px;
+    position:relative;
+    left:755px;
+}
+
+.four div{
+    color:white;
+    font-size: 21px;
+    position:relative;
+    left:755px;
+}
+#final{
+    color:white;
+    position:relative;
+    left:758px;
+    top:42px;
+    border: 3px solid RGB(20, 110, 160);
+    width:100px;
+    padding:12px;
+    padding-left: 71px;
+    padding-right: 64px;
+    background-color: RGB(20, 110, 160);
+    cursor:pointer;
+}
+.five{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position:relative;
+    top:-72px;
+}
+.text{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color:black;
+    position:relative;
+    font-size: 30px;
+    bottom:88px;
+    
+}
+
+#second{
+    position: relative;
+    left:-39px;
+}
+#third{
+    position: relative;
+    left:-58px;
+}
+
+.information{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#begin{
+    font-size: 21px;
+    position:relative;
+    bottom:112px;
+    
+}
+#middle{
+    position:relative;
+    bottom:112px;
+    font-size: 21px;
+   
+}
+#last{
+    position:relative;
+    font-size: 21px;
+    bottom:112px;
+}
+.six{
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg");
+    background-repeat: round;
+    height:555px;
+    width:1266px;
+    position: relative;
+    bottom:90px;
+    display:flex;
+    flex-direction: column;
+}
+.six h1{
+    color:white;
+    font-size: 40px;
+    position: relative;
+    left: 39px;
+
+}
+.six div{
+    color: white;
+    font-size:21px ;
+    position: relative;
+    left: 39px;
+}
+#finally{
+    color:white;
+    position: relative;
+    left:41px;
+    top:30px;
+    border: 3px solid RGB(20, 110, 160);
+    background-color: RGB(20, 110, 160);
+    width:100px;
+    padding:12px;
+    padding-left: 71px;
+    padding-right: 64px;
+    font-size: 22px;
+    cursor:pointer;
+}
